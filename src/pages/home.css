@@ -1,0 +1,120 @@
+.home-art {
+    background-image: url('../img/unsplash_S-llxYh3GzI.svg');
+    width: 1296px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
+.home-art p {
+    text-align: center;
+    padding-top: 136px;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.home-art h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.6px;
+}
+
+/* ------------------------------- Session section*/
+.sessions {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.sessions .sessions-text p {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.8px;
+    padding-bottom: 100px;
+}
+
+.sessions-photo {
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    align-items: end;
+    padding: 5px;
+    padding-bottom: 150px;
+}
+
+.sessions-photo-left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.sessions-photo-right {
+    display: grid;
+    grid-template-areas:
+        "ferst two"
+        "thre fore";
+    grid-row-gap: 26px;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.sessions-photo-right-img1 {
+    grid-area: ferst;
+    background-image: url(../img/unsplash_TnOyyEtrKd01.svg);
+    width: 416px;
+    height: 258px;
+}
+
+.sessions-photo-right-img2 {
+    grid-area: two;
+    background-image: url(../img/unsplash_TnOyyEtrKd01.svg);
+    width: 416px;
+    height: 258px;
+}
+
+.sessions-photo-right-img3 {
+    grid-area: thre;
+    background-image: url(../img/unsplash_TnOyyEtrKd01.svg);
+    width: 416px;
+    height: 258px;
+}
+
+.sessions-photo-right-img4 {
+    grid-area: fore;
+    background-image: url(../img/unsplash_TnOyyEtrKd01.svg);
+    width: 416px;
+    height: 258px;
+}
+
+/* ----------------------------------review section */
+.reviews-text {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews {
+    padding-bottom: 250px;
+}
+
+.reviews-text p {
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.8px;
+    padding-bottom: 100px;
+}
+
+.slider {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
