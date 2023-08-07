@@ -12,6 +12,16 @@
     line-height: 58.8px;
 }
 
+.new-title p::before {
+    content: url('../img/left.svg');
+    padding-right: 45px;
+}
+
+.new-title p::after {
+    content: url('../img/right.svg');
+    padding-left: 45px;
+}
+
 .new-cards {
     display: flex;
     align-items: center;

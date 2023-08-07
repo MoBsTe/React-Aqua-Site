@@ -10,13 +10,13 @@
 }
 
 .header {
-    width: 100%;
-    border-bottom: 1px solid #fff;
-    padding-top: 50px;
-    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1296px;
+    border-bottom: 1px solid #fff;
+    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .header .nav a {

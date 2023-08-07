@@ -17,6 +17,16 @@
     line-height: 33.6px;
 }
 
+.home-art p::before {
+    content: url('../img/left-white.svg');
+    padding-right: 45px;
+}
+
+.home-art p::after {
+    content: url('../img/right-white.svg');
+    padding-left: 45px;
+}
+
 .home-art h2 {
     text-align: center;
     color: #fff;
@@ -36,6 +46,16 @@
     font-weight: 700;
     line-height: 58.8px;
     padding-bottom: 100px;
+}
+
+.sessions-text p::before {
+    content: url('../img/left.svg');
+    padding-right: 45px;
+}
+
+.sessions-text p::after {
+    content: url('../img/right.svg');
+    padding-left: 45px;
 }
 
 .sessions-photo {
@@ -95,6 +115,16 @@
     justify-content: center;
 }
 
+.reviews-text p::before {
+    content: url('../img/left.svg');
+    padding-right: 45px;
+}
+
+.reviews-text p::after {
+    content: url('../img/right.svg');
+    padding-left: 45px;
+}
+
 .reviews {
     padding-bottom: 300px;
     position: relative;
@@ -117,6 +147,16 @@
 .about-text {
     text-align: center;
     padding-bottom: 100px;
+}
+
+.about-text p::before {
+    content: url('../img/left.svg');
+    padding-right: 45px;
+}
+
+.about-text p::after {
+    content: url('../img/right.svg');
+    padding-left: 45px;
 }
 
 .about-text p {
@@ -203,6 +243,16 @@
     padding-bottom: 100px;
 }
 
+.cost-text p::before {
+    content: url('../img/left.svg');
+    padding-right: 45px;
+}
+
+.cost-text p::after {
+    content: url('../img/right.svg');
+    padding-left: 45px;
+}
+
 .sessionscost-container {
     display: flex;
     justify-content: space-around;
@@ -217,6 +267,11 @@
     font-weight: 400;
     line-height: 25.2px;
     /* margin-left: 272px; */
+}
+
+.sessionscost-left p::before {
+    content: url('../img/left.svg');
+    padding-right: 20px;
 }
 
 .sessions-center p {

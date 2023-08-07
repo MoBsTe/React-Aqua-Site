@@ -1,6 +1,8 @@
 import sessionsPhotoLeft from '../img/unsplash_TnOyyEtrKd0.svg'
 import aboutPhotoLeft from '../img/unsplash_TnOyyEtrKd01.svg'
 import CostPhotoLeft from '../img/unsplash_M3fhZSBFoFQ.svg'
+import left from '../img/left.svg'
+import right from '../img/right.svg'
 import Slider from '../components/Slider'
 import React from 'react';
 import './home.css'
