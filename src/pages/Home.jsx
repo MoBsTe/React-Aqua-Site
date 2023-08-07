@@ -1,7 +1,7 @@
-import logo from '../img/unsplash_S-llxYh3GzI.svg'
 import sessionsPhotoLeft from '../img/unsplash_TnOyyEtrKd0.svg'
 import aboutPhotoLeft from '../img/unsplash_TnOyyEtrKd01.svg'
 import CostPhotoLeft from '../img/unsplash_M3fhZSBFoFQ.svg'
+import Slider from '../components/Slider'
 import React from 'react';
 import './home.css'
 const Home = () => {
@@ -34,9 +34,7 @@ const Home = () => {
                 <div className='reviews-text'>
                     <p>Reviews</p>
                 </div>
-                <div className='slider'>
-
-                </div>
+                <Slider />
             </div>
             <div className='about'>
                 <div className='about-text'>
@@ -46,7 +44,7 @@ const Home = () => {
                     <div className='about-container-grid'>
                         <div className='ferst'>
                             <div className='ferst-uper-text'>
-                                RitmStyle массаж
+                                RitmStyle massage
                             </div>
                             <div className='ferst-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
@@ -62,7 +60,7 @@ const Home = () => {
                         </div>
                         <div className='fore'>
                             <div className='ferst-uper-text'>
-                                RitmStyle массаж
+                                RitmStyle massage
                             </div>
                             <div className='ferst-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
@@ -95,12 +93,12 @@ const Home = () => {
                     </div>
                     <div className='sessionscost-rigt'>
                         <img src={CostPhotoLeft} alt="" />
-                        <p>Подарочный сертификат</p>
+                        <p>Gift Certificate</p>
                     </div>
                 </div>
             </div>
             <div className='map'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148784.80927346795!2d18.52522347305248!3d54.361175167659475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd731c14d4fa6f%3A0x9bb9fbf163b7be8d!2zR2RhxYRzaw!5e0!3m2!1sen!2spl!4v1691367267415!5m2!1sen!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148784.80927346795!2d18.52522347305248!3d54.361175167659475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd731c14d4fa6f%3A0x9bb9fbf163b7be8d!2zR2RhxYRzaw!5e0!3m2!1sen!2spl!4v1691367267415!5m2!1sen!2spl" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     );

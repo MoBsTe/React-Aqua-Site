@@ -1,0 +1,39 @@
+.new {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.new-title, .new-title p {
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.8px;
+}
+
+.new-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1298px;
+    gap: 15px;
+}
+
+.card {
+    position: relative;
+    background-image: url('../img/unsplash_TnOyyEtrKd01.svg');
+    width: 416px;
+    height: 258px;
+}
+
+.card p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px;
+}
