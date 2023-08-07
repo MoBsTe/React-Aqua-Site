@@ -118,3 +118,144 @@
     height: 300px;
     background-color: black;
 }
+
+/* --------------------- About section */
+.about {
+    padding-bottom: 150px;
+}
+
+.about-text {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.about-text p {
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.8px;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 3fr;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    ;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5px;
+    padding-bottom: 150px;
+    padding-left: 140px;
+}
+
+.about-container-grid {
+    /* grid-column-gap: 25px;
+    grid-row-gap: 10px; */
+    gap: 40px;
+    display: grid;
+    grid-template-areas:
+        "ferst two"
+        "thre fore";
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 10px; */
+}
+
+.ferst {
+    grid-area: ferst;
+}
+
+.ferst-uper-text {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:
+        33.6px;
+    padding-bottom: 30px;
+}
+
+.two {
+    grid-area: two;
+}
+
+.thre {
+    grid-area: thre;
+}
+
+.fore {
+    grid-area: fore;
+}
+
+.ferst-text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    max-width: 466px;
+}
+
+/* ------------------------Session Cost section*/
+.sessioncost {
+    /* max-width: 1086px; */
+    padding-bottom: 150px;
+}
+
+.cost-text, .cost-text p {
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.8px;
+    padding-bottom: 100px;
+}
+
+.sessionscost-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 222px; */
+}
+
+.sessionscost-left p {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    /* margin-left: 272px; */
+}
+
+.sessions-center p {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+}
+
+.sessionscost-rigt p {
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.map iframe {
+    width: 850px;
+    height: 550px;
+    border-radius: 20px;
+    border: 0;
+}
